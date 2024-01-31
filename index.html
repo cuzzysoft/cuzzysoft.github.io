@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="og:title" content="NextGenAppsPro - Free Bootstrap 5 Portfolio Website Template">
+    <meta name="og:description"
+        content="NextGenAppsPro - Portfolio Website Template is fully responsive and customizable, you can create portfolio websites in minutes.">
+
+    <title>Portfolio - Chidubem Uzochukwu </title>
+    <link rel="icon" id="favicon" href="assets/images/favicon.svg" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="lib/WOW-master/css/libs/animate.css">
+    <link rel="stylesheet" href="lib/all.min.css">
+    <link rel="stylesheet" href="lib/fancy/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="lib/bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+    .projectdiv {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .project {
+      width: calc(30% - 5px); /* Adjust width as needed */
+      margin-bottom: 2px;
+      box-sizing: border-box;
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
+    .project h6{
+        color: #42999e;
+        margin-top: 1em;
+    }
+    @media (max-width: 768px) {
+      .project {
+        width: calc(50% - 5px); /* Adjust width for smaller screens */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .project {
+        width: 100%; /* Full width on even smaller screens */
+      }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="preloader"> <img src="assets/images/logo.png" alt="Preloader Logo"> </div>
+    <header class="d2c_navbar sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg px-0 py-0" id="d2c_main_nav"> <a class="navbar-brand"
+                    href="index.html"><img src="assets/images/logo.png" class="w-100" alt="Logo"></a> <button
+                    class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"> <span><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse js-clone-nav justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link active" href="#home">home <span
+                                    class="sr-only">(current)</span></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#about">About Me</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#services">Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#skill">Skill</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#work">Projects</a> </li>
+                        <li class="nav-item pt-1"> <a href="#contact" class="btn nav-link d-block d-lg-none">lets
+                                talk</a> </li>
+                    </ul>
+                </div><a href="#contact" class="btn d-none d-lg-block">lets talk</a>
+            </nav>
+            <div class="collapse navbar-collapse d2c_mobile_view" id="navbarSupportedContent">
+                <div class="show_width container">
+                    <div class="text-right"> <button class="navbar-toggler d2c_cross_btn p-0" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fa fa-times"></i></span> </button> </div>
+                    <div class="navbar px-0 d2c_mobile_view_body"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="#d2c_main_nav" class="position-relative">
+        <section class="d2c_hero_wrapper position-relative" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-5 mb-lg-0 text-center text-md-start wow fadeInLeft">
+                        <h1>Hey! I am Software Engineer</h1>
+                        <p>
+                            I am a seasoned Full-Stack Developer with a robust background in software development,
+                            boasting over six years of experience.
+                            While I possess proficiency
+                            in both frontend and backend technologies, my primary expertise lies in backend technologies
+                            such as PHP, C#, and Java
+                        <ul>
+                            <li>Email: <a href="mailto:uzochukwu.chidubem@gmail.com">uzochukwu.chidubem@gmail.com</a></li>
+                            <li>Phone: <a href="tel:+2348160417161">+234 8160 417161</a></li>
+                            <li>LinkedIn: <a href="https://linkedin.com/in/cuzzysoft">linkedin.com/in/cuzzysoft</a> </li>
+                            <li>GitHub: <a href="https://github.com/cuzzysoft">github.com/cuzzysoft</a> </li>
+                        </ul>
+                        </p>
+                            
+                            <a href="#about" class="btn d2c_secondary_btn">Learn more</a>
+                        <a href="#contact" class="btn">hire me</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d2c_hero_right wow fadeInRight"> <img src="assets/images/Hero_right_img.png"
+                                class="img-fluid" alt="Hero Image"> </div>
+                    </div>
+                </div>
+            </div><img src="assets/images/tringle_element.png" alt="Tringle Element"> <img
+                src="assets/images/horizontal_wave.png" alt="Horizontal Wave"> <img
+                src="assets/images/vertical_wave.png" alt="Vertical Wave">
+        </section>
+        <div class="d2c_about_expertise_bg">
+            <section class="d2c_about_wrapper position-relative" id="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-1 order-lg-0">
+                            <div class="d2c_about_left position-relative wow fadeInLeft"> <img
+                                    src="assets/images/about_left_img.png" class="img-fluid" alt="About Image">
+                                <div class="d2c_about_card wow fadeInUp">
+                                    <h3 class="mb-lg-2 mb-xxl-3">Software Designer</h3>
+                                    <div id="counters_2">
+                                        <p class="mb-0"><span class="count" data-TargetNum="`150">150</span>+ project
+                                            complete</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ps-3 ps-lg-5 order-0 order-lg-1 mb-4 mb-md-5 mb-lg-0 wow fadeInRight">
+                            <h6>About me</h6>
+                            <h2 class="mb-3">I am a Passionate Software Engineer</h2>
+                            <p>
+                                I am Chidubem Uzochukwu, a 2015 graduate of Anambra State University with a B.Sc degree
+                                in Computer Science.
+                                I have over 6 years of the experience in software development. During these years I have
+                                developed software
+                                solutions for business use cases like Hospitality, Health, Tech and Finance from
+                                conceptualization to deployment.
+                                I have hands-on experience in maintaining
+                                cutting-edge software solutions and collaborating with cross-functional teams to deliver
+                                high-quality products on time and within budget.
+
+                                .</p>
+                            <h5 class="mb-lg-2 mb-xl-3">Main Focus</h5>
+                            <p class="mb-lg-3 mb-xxl-4">While I possess proficiency in frontend technologies such as
+                                React, CSS,
+                                JavaScript, Flutter, and Angular, my primary emphasis lies in backend technologies, like
+                                PHP, C#,
+                                Node, and Java. This preference stems from my extensive experience in the latter
+                                technologies. I have successfully
+                                completed real-world projects, which are currently accessible online and under my
+                                ongoing maintenance.
+                            </p>
+                            <h5 class="mb-lg-2 mb-xl-3">Certifications</h5>
+                            <p class="mb-3 mb-md-0">
+                                I have acquired several noteworthy certificates throughout my professional journey.
+                            <ul>
+                                <li>Java Developer Certificate</li>
+                                <p>Issued by National Institute of Information Technology</p>
+
+                                <li>C# Developer Certificate</li>
+                                <p>Issued by Decagon</p>
+
+                                <li>Scrum Fundamentals Certificate</li>
+                                <p>Issued by Scrum Body</p>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d2c_counter_wrapper" id="counters_1">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 wow fadeInUp">
+                                <div class="d2c_card text-center">
+                                    <h2><span class="count" data-TargetNum="06">06</span>+</h2>
+                                    <h5 class="mb-0">Years Experience</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-4 mb-md-0 wow fadeInUp">
+                                <div class="d2c_card text-center">
+                                    <h2><span class="count" data-TargetNum="150">150</span>+</h2>
+                                    <h5 class="mb-0">Projects Done</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-4 mb-md-0 wow fadeInUp">
+                                <div class="d2c_card text-center">
+                                    <h2><span class="count" data-TargetNum="75">75</span>+</h2>
+                                    <h5 class="mb-0">Happy Clients</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 wow fadeInUp">
+                                <div class="d2c_card text-center">
+                                    <h2><span class="count" data-TargetNum="4">4</span>+</h2>
+                                    <h5 class="mb-0">Get Awards</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><img src="assets/images/tringle_element.png" alt="Tringle Element"> <img
+                    src="assets/images/add_element.png" alt="Add Element"> <img src="assets/images/square_element.png"
+                    alt="Square Element">
+            </section>
+            <section class="d2c_hobbies_wrapper position-relative">
+                <div class="container">
+                    <h6 class="text-center">Hobbies</h6>
+                    <h2 class="text-center">Things I Love to Do</h2>
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Football</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Cybersecurity</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-lg-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Music</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Digital Marketing</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Graphic Design</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">DevOps</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Coding</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Gaming</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Project Manage</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Reading</h5>
+                            </div>
+                        </div>
+                        <div
+                            class="col-6 col-md-4 col-lg-3 col-xl-2 offset-0 offset-lg-3 offset-xl-0 mb-4 mb-md-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Swimming</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <h5 class="mb-0">Dancing</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div><img src="assets/images/tringle_element.png" alt="Tringle Element"> <img
+                    src="assets/images/square_element.png" alt="Square Element">
+            </section>
+        </div>
+        <div class="d2c_services_skill_bg">
+            <section class="d2c_services_wrapper position-relative" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center">
+                            <h6>Services</h6>
+                            <h2 class="mb-3">What do i offer</h2>
+                            <p>Here are list of things that makes me stand out.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 mb-4 wow fadeInDown">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_one.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Pressure</h5>
+                                I work well under pressure
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-md-4 wow fadeInDown">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_two.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Full-Stack Proficiency </h5>
+                                Frontend and backend
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 wow fadeInDown">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_three.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Problem-Solving Aptitute</h5>
+                                Natural problem solver
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-md-4 wow fadeInDown">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_four.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Collaboration & Teamwork</h5>
+                                It is better together than alone
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_five.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Agile Methodologies</h5>
+                                Scrum fundametal certified
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-md-4 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_six.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Attention to Detail</h5>
+                                Very meticulous
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-md-4 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_seven.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Continuous Learning</h5>
+                                Insatiable desire to know more
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 wow fadeInUp">
+                            <div class="d2c_card text-center">
+                                <div class="d2c_img_border">
+                                    <div class="d2c_img_wrapper"> <img src="assets/images/services_eight.svg"
+                                            alt="Services Icon"> </div>
+                                </div>
+                                <h5 class="mb-0">Project Management Skills</h5>
+                                Experience as Scrum Master
+                            </div>
+                        </div>
+                    </div>
+                </div><img src="assets/images/cross_element.png" alt="Cross Element"> <img
+                    src="assets/images/cross_element.png" alt="Cross Element"> <img
+                    src="assets/images/tringle_element.png" alt="Tringle Element">
+            </section>
+            <section class="d2c_skill_wrapper position-relative" id="skill">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 text-center text-md-start mb-4 mb-md-5 mb-lg-0 wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-12">
+                                    <h6>my skill</h6>
+                                    <h2 class="mb-3">I am expert in</h2>
+                                    <p class="pe-0 pe-lg-5">I've created and updated websites for many different
+                                        clients. I have worked with multiple web technologies including Node, C#,
+                                        WordPress, Joomla, and Drupal, as
+                                        well as created my own custom website management system in HTML,CSS,JS and PHP.
+                                        Also I've worked with cloud platforms like Axure and AWS</p>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <ul
+                                        class="list-group list-group-horizontal justify-content-center justify-content-lg-start">
+                                        <li class> <span>PHP</span> </li>
+                                        <li> <span>AXURE</span> </li>
+                                        <li> <span>CSS</span> </li>
+                                    </ul>
+                                    <ul
+                                        class="list-group list-group-horizontal justify-content-center justify-content-lg-start">
+                                        <li class="mb-0"> <span>C#</span> </li>
+                                        <li class="mb-0"> <span>JS</span> </li>
+                                        <li class="mb-0"> <span>AWS</span> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d2c_skill_right wow fadeInRight"> <img src="assets/images/skill_right_img.png"
+                                    class="img-fluid" alt="Skill Image"> </div>
+                        </div>
+                    </div>
+                </div><img src="assets/images/square_element.png" alt="Square Element"> <img
+                    src="assets/images/circle_element.png" alt="Circle Element">
+            </section>
+        </div>
+        <div class="d2c_portfolio_pricing_bg">
+            <section class="d2c_portfolio_wrapper position-relative" id="work">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center">
+                            <h6>Portfolio</h6>
+                            <h2 class="mb-3">Some of my works</h2>
+                            <p>I have hundreds of completed projects spanning accross different technologies.
+                                I will list just a few.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="projectdiv">
+                        <div class="project">
+                            <img src="assets/images/portfolio_one.png" alt="Project 1">
+                            <h6>Hotel Management System</h6>
+                            Technologies
+                            <ul>
+                                <li>PHP</li>
+                                <li>JavaScript</li>
+                                <li>MySQL</li>
+                            </ul>
+                            
+                                
+                            
+                        </div>
+
+                        <div class="project">
+                            <img src="assets/images/ecommerce.png" alt="ecommerce website">
+                            <h6>Software E-Commerce Website <a href="https://thesiscodes.com">thesiscodes.com</a></h6>
+                            Technologies
+                            <ul>
+                                <li>PHP</li>
+                                <li>CodeIgniter</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="project">
+                            <img src="assets/images/hotelman.png" alt="Hotel booking system">
+                            <h6>Hotel Booking System <a href="https://lorgartshillhotel.com">lorgartshillhotel.com</a></h6>
+                                Technologies
+                                <ul>
+                                    <li>WordPress</li>
+                                    <li>MySQL</li>
+                                </ul>
+                        </div>
+
+                        <div class="project">
+                            <img src="assets/images//nwaguatahihia.webp"  style="height: 400px;" alt="Car delivery tracker">
+                            <h6>Car Delivery tracker</h6><a href="https://play.google.com/store/apps/details?id=com.nmlt.nwaguatahihia_vehicle_delivery">Visit on playstore</a>
+                            <br>Technologies
+                            <ul>
+                                <li>Flutter</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+                <img src="assets/images/tringle_element.png" alt="Tringle Element"> <img
+                    src="assets/images/cross_element.png" alt="Cross Element"> <img
+                    src="assets/images/square_element.png" alt="Square Element">
+            </section>
+
+        </div>
+        <div class="d2c_testimonial_contact_bg">
+
+            <section class="d2c_contact_wrapper position-relative" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4 mb-lg-0 wow fadeInLeft">
+                            <div class="d2c_card">
+                                <h6>contact</h6>
+                                <h2 class="mb-3">get in touch</h2>
+                                <form class="row needs-validation" novalidate>
+                                    <div class="col-md-12"> <input type="text" class="form-control"
+                                            id="validationCustomFirstName" placeholder="Name :" autocomplete="off"
+                                            required> </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group has-validation"> <input type="email"
+                                                class="form-control" id="validationCustomEmail" placeholder="Email :"
+                                                autocomplete="on" required> </div>
+                                    </div>
+                                    <div class="col-md-12"> <textarea class="form-control" rows="5"
+                                            id="validationCustomMessage" placeholder="Write Message :"
+                                            required></textarea> </div>
+                                    <div class="col-12"> <button class="btn" type="submit">Contact us</button> </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeInRight">
+                            <div class="d2c_card">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas"><iframe class="gmap_iframe"
+                                            src="https://maps.google.com/maps?hl=en&amp;q=lagos&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><img src="assets/images/square_element.png" alt="Square Element"> <img
+                    src="assets/images/tringle_element.png" alt="Tringle Element">
+            </section>
+        </div>
+        <footer class="d2c_footer_wrapper">
+            <div class="d2c_footer_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4 col-xl-5 mb-5 mb-lg-0 wow fadeInLeft">
+                            <div class="d2c_footer_left"> <a href="index.html"> <img src="assets/images/footer_logo.png"
+                                        alt="Footer Logo"> </a>
+                                <p class="mb-0">Reach out to me lets work on that your ground breaking application</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl wow fadeInUp">
+                            <h4>Contact Details</h4>
+                            <ul class="d2c_info_link mb-5 mb-md-0">
+                                <li class="mb-3"> <a href="tel:219-555-0114"> <span> <i class="fas fa-phone-alt"></i>
+                                        </span> +2348160417161 </a> </li>
+                                <li class="mb-3"> <a
+                                        href="https://live.designtocodes.com/cdn-cgi/l/email-protection#afc1c8cedfddc0efc8c2cec6c381ccc0c2">
+                                        <span> <i class="far fa-envelope"></i> </span> <a href="mailto:uzochukwu.chidubem@gmail.com">uzochukwu.chidubem@gmail.com</a>
+                                    </a> </li>
+                                <li> <a href="https://www.google.com/maps/search/Royal+2464+Ln.+Mesa,+New+Jersey/@36.8616406,-103.4819732,5z/data=!3m1!4b1?entry=ttu"
+                                        target="_blank"> <span> <i class="fas fa-map-marker-alt"></i> </span> Lekki, Lagos, Nigeria </a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl wow fadeInRight">
+                            <h4>Newsletter</h4>
+                            <form class="needs-validation" novalidate>
+                                <div class="input-group"> <input type="email" class="form-control"
+                                        placeholder="Enter Email Address:" aria-describedby="newsletter_btn"
+                                        autocomplete="on" required> <button class="btn" type="submit"
+                                        id="newsletter_btn"><i class="fas fa-paper-plane"></i></button> </div>
+                            </form>
+                            <ul class="d2c_social_link list-group list-group-horizontal">
+                                <li> <a href="https://www.facebook.com/emperorcuzzy" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a> </li>
+                                <li> <a href="https://twitter.com/chidubem118" target="_blank"><i
+                                            class="fab fa-twitter"></i></a> </li>
+                                <li> <a href="https://www.linkedin.com/in/cuzzysoft/" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a> </li>
+                                <li> <a href="https://www.instagram.com/" target="_blank"><i
+                                            class="fab fa-instagram"></i></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="d2c_copy_wrapper">
+            <p class="mb-0">&copy; 2017 - 2024 <a href="#" target="_blank">Chidubem Uzochukwu</a>. All Right Reserved</p>
+        </div>
+        <div id="scrollBtn"> <a href="#"> <i class="fas fa-chevron-up"></i> </a> </div>
+    </main>
+    <script data-cfasync="false" src="lib/email-decode.min.js"></script>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="lib/WOW-master/dist/wow.min.js"></script>
+    <script src="lib/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/fancy/jquery.fancybox.min.js"></script>
+    <script src="lib/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
